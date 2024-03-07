@@ -394,7 +394,7 @@ anno_textbox = function(align_to, text, background_gp = gpar(fill = "#DDDDDD", c
 		}
 
 		anno = anno_link(align_to = align_to, which = "row", panel_fun = panel_fun, 
-	    	size = gbl_h, gap = unit(2, "mm"), width = gbl_w + unit(5, "mm"),
+	    	size = gbl_h, gap = unit(1, "mm"), width = gbl_w + unit(1, "mm"),
 	    	link_gp = background_gp, internal_line = FALSE, side = side)
 	} else {
 		panel_fun = function(index, nm) {
